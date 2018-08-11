@@ -1,0 +1,17 @@
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\bin\Debug\IssueTrackingSystemBLL.dll.config
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\bin\Debug\IssueTrackingSystemBLL.dll
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\bin\Debug\IssueTrackingSystemBLL.pdb
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\bin\Debug\EntityFramework.dll
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\bin\Debug\EntityFramework.SqlServer.dll
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\bin\Debug\IssueTrackingSystemCL.dll
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\bin\Debug\IssueTrackingSystemCL.pdb
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\bin\Debug\IssueTrackingSystemCL.dll.config
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\bin\Debug\EntityFramework.xml
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\bin\Debug\EntityFramework.SqlServer.xml
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\obj\Debug\IssueTrackingSystemBLL.csprojAssemblyReference.cache
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\obj\Debug\IssueTrackingSystemBLL.csproj.CoreCompileInputs.cache
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\obj\Debug\IssueTrackingSystemBLL.csproj.CopyComplete
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\obj\Debug\IssueTrackingSystemBLL.dll
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\obj\Debug\IssueTrackingSystemBLL.pdb
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\obj\Debug\IssueTrackingSystemBLL.Migrations.InitialCreate.resources
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\obj\Debug\IssueTrackingSystemBLL.csproj.GenerateResource.cache

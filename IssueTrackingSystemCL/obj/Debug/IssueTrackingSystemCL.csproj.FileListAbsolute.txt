@@ -1,0 +1,7 @@
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemCL\bin\Debug\IssueTrackingSystemCL.dll
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemCL\bin\Debug\IssueTrackingSystemCL.pdb
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemCL\obj\Debug\IssueTrackingSystemCL.csprojAssemblyReference.cache
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemCL\obj\Debug\IssueTrackingSystemCL.csproj.CoreCompileInputs.cache
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemCL\obj\Debug\IssueTrackingSystemCL.dll
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemCL\obj\Debug\IssueTrackingSystemCL.pdb
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemCL\bin\Debug\IssueTrackingSystemCL.dll.config
