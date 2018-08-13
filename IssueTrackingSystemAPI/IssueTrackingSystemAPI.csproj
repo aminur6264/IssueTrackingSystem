@@ -157,6 +157,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\ProjectsController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -285,6 +286,10 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\IssueTrackingSystemBLL\IssueTrackingSystemBLL.csproj">
+      <Project>{aea7fbd8-0f36-4a52-a2cf-27112c58ee33}</Project>
+      <Name>IssueTrackingSystemBLL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\IssueTrackingSystemCL\IssueTrackingSystemCL.csproj">
       <Project>{e603b173-072d-43bf-a2c2-ad309152cefa}</Project>
       <Name>IssueTrackingSystemCL</Name>

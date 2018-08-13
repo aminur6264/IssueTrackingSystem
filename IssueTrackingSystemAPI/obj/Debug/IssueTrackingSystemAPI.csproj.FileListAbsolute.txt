@@ -104,3 +104,6 @@ G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemAPI\obj\
 G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemAPI\obj\Debug\IssueTrackingSystemAPI.dll
 G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemAPI\obj\Debug\IssueTrackingSystemAPI.pdb
 G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemAPI\bin\IssueTrackingSystemCL.dll.config
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemAPI\bin\IssueTrackingSystemBLL.dll
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemAPI\bin\IssueTrackingSystemBLL.pdb
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemAPI\bin\IssueTrackingSystemBLL.dll.config

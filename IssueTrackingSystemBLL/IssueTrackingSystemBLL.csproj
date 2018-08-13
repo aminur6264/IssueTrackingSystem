@@ -53,12 +53,14 @@
     <Compile Include="Configrations\ProjectModulesConfigration.cs" />
     <Compile Include="Configrations\UserConfigration.cs" />
     <Compile Include="Connection\IssueTrackingDbContext.cs" />
+    <Compile Include="DAL\ProjectDAL.cs" />
     <Compile Include="Migrations\201808111921164_InitialCreate.cs" />
     <Compile Include="Migrations\201808111921164_InitialCreate.Designer.cs">
       <DependentUpon>201808111921164_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\ProjectViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
