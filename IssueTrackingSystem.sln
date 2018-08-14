@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssueTrackingSystemBLL", "I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssueTrackingSystemAPP", "IssueTrackingSystemAPP\IssueTrackingSystemAPP.csproj", "{509BD9D5-A43D-4770-AED6-9D20B7ADCEA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularApp", "AngularApp\AngularApp.csproj", "{0DFA3B01-3968-4845-8AFF-7548A7FBD18A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{509BD9D5-A43D-4770-AED6-9D20B7ADCEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{509BD9D5-A43D-4770-AED6-9D20B7ADCEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{509BD9D5-A43D-4770-AED6-9D20B7ADCEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DFA3B01-3968-4845-8AFF-7548A7FBD18A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFA3B01-3968-4845-8AFF-7548A7FBD18A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFA3B01-3968-4845-8AFF-7548A7FBD18A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFA3B01-3968-4845-8AFF-7548A7FBD18A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

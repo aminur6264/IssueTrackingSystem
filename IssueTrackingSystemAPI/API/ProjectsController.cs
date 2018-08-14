@@ -29,16 +29,6 @@ namespace IssueTrackingSystemAPI.API
                 return BadRequest("An Error Happen");
         }
 
-        // POST: api/Projects
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT: api/Projects/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
         // DELETE: api/Projects/5
         public void Delete(int id)
         {
