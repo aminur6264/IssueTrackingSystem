@@ -21,6 +21,8 @@ namespace IssueTrackingSystemCL.Entity
         [Required]
         public string Password { get; set; }
 
+        public bool IsActive { get; set; }
+
         public ICollection<Customer> Customers { get; set; }
         public ICollection<Project> Projects { get; set; }
         //public ICollection<Module> Modules{ get; set; }

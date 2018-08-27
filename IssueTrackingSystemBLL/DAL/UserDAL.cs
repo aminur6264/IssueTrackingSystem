@@ -13,6 +13,16 @@ namespace IssueTrackingSystemBLL.DAL
     {
         IssueTrackingDbContext db = new IssueTrackingDbContext();
 
+
+
+        public User Login(string userName, string password)
+        {
+            User user = db.Users.FirstOrDefault(x=> x.Password == password && (x.UserName == userName || x.Email == userName) && x.IsActive==true);
+            return user;
+        }
+
+
+
         public object GetAllUser()
         {
             var result = db.Users.Select(x => new

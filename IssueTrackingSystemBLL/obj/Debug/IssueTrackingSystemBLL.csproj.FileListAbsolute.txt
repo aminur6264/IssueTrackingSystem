@@ -15,3 +15,4 @@ G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\obj\
 G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\obj\Debug\IssueTrackingSystemBLL.pdb
 G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\obj\Debug\IssueTrackingSystemBLL.Migrations.InitialCreate.resources
 G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\obj\Debug\IssueTrackingSystemBLL.csproj.GenerateResource.cache
+G:\Project\Issue Tracking System\IssueTrackingSystem\IssueTrackingSystemBLL\obj\Debug\IssueTrackingSystemBLL.Migrations.Database_Column_added.resources

@@ -61,6 +61,10 @@
     <Compile Include="Migrations\201808111921164_InitialCreate.Designer.cs">
       <DependentUpon>201808111921164_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808271708012_Database_Column_added.cs" />
+    <Compile Include="Migrations\201808271708012_Database_Column_added.Designer.cs">
+      <DependentUpon>201808271708012_Database_Column_added.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\ProjectViewModel.cs" />
@@ -72,6 +76,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201808111921164_InitialCreate.resx">
       <DependentUpon>201808111921164_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808271708012_Database_Column_added.resx">
+      <DependentUpon>201808271708012_Database_Column_added.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

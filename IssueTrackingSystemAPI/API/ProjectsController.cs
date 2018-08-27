@@ -23,10 +23,7 @@ namespace IssueTrackingSystemAPI.API
         {
 
             var result = _projectDal.SaveOrUpdate(project);
-            if (result == true)
-                return Ok("Save Successfully");
-            else
-                return BadRequest("An Error Happen");
+            return Ok("Save Successfully");
         }
 
         // DELETE: api/Projects/5
