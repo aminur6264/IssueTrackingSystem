@@ -11,9 +11,14 @@ namespace IssueTrackingSystemCL.Entity
     public class Issue
     {
         public int Id { get; set; }
+        public string Title { get; set; }
         [Required]
         public string Details { get; set; }
         public DateTime CreateDate { get; set; }
+        public int CreateBy { get; set; }
         public DateTime ModifiedDate { get; set; }
+        public int ModifiBy { get; set; }
+
+        // Have to add navigation to user
     }
 }

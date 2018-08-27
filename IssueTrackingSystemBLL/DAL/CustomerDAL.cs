@@ -1,51 +1,51 @@
-﻿using System;
+﻿using IssueTrackingSystemBLL.Connection;
+using IssueTrackingSystemCL.Entity;
+using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using IssueTrackingSystemBLL.Connection;
-using IssueTrackingSystemCL.Entity;
+using System.Data.Entity;
 
 namespace IssueTrackingSystemBLL.DAL
 {
-    public class ProjectDAL
+    public class CustomerDAL
     {
         IssueTrackingDbContext db = new IssueTrackingDbContext();
 
-        public object GetAllProject()
+        public object GetAllCustomer()
         {
-            var result = db.Projects.Select(x => new
+            var result = db.Customers.Select(x => new
             {
                 Name = x.Name,
-                AddedOn = x.AddedDate,
+                AddedOn = x.AddDate,
                 AddedBy = x.User.Name
             }).ToList();
             return result;
         }
 
-        public Project GetProjectById(int id)
+        public Customer GetCustomerById(int id)
         {
-            var result = db.Projects.FirstOrDefault(x => x.ProjectId == id);
+            var result = db.Customers.FirstOrDefault(x => x.CustomerId == id);
             return result;
         }
 
-        public string SaveOrUpdate(Project project)
+        public string SaveOrUpdate(Customer customer)
         {
             try
             {
                 string message = "";
-                if (project.ProjectId == 1)
+                if (customer.CustomerId == 1)
                 {
-                    db.Projects.Add(project);
+                    db.Customers.Add(customer);
                     message = "Data save.";
                 }
                 else
                 {
-                    db.Entry(project).State = EntityState.Modified;
+                    db.Entry(customer).State = EntityState.Modified;
                     message = "Data Updated.";
                 }
-                
+
                 db.SaveChanges();
                 return message;
             }

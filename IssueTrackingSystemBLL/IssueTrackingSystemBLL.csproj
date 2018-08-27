@@ -53,7 +53,10 @@
     <Compile Include="Configrations\ProjectModulesConfigration.cs" />
     <Compile Include="Configrations\UserConfigration.cs" />
     <Compile Include="Connection\IssueTrackingDbContext.cs" />
+    <Compile Include="DAL\CustomerDAL.cs" />
+    <Compile Include="DAL\ModuleDAL.cs" />
     <Compile Include="DAL\ProjectDAL.cs" />
+    <Compile Include="DAL\UserDAL.cs" />
     <Compile Include="Migrations\201808111921164_InitialCreate.cs" />
     <Compile Include="Migrations\201808111921164_InitialCreate.Designer.cs">
       <DependentUpon>201808111921164_InitialCreate.cs</DependentUpon>

@@ -1,51 +1,50 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Entity;
 using IssueTrackingSystemBLL.Connection;
 using IssueTrackingSystemCL.Entity;
 
 namespace IssueTrackingSystemBLL.DAL
 {
-    public class ProjectDAL
+    public class UserDAL
     {
         IssueTrackingDbContext db = new IssueTrackingDbContext();
 
-        public object GetAllProject()
+        public object GetAllUser()
         {
-            var result = db.Projects.Select(x => new
+            var result = db.Users.Select(x => new
             {
                 Name = x.Name,
-                AddedOn = x.AddedDate,
-                AddedBy = x.User.Name
+                AddedOn = x.AddDate
             }).ToList();
             return result;
         }
 
-        public Project GetProjectById(int id)
+        public User GetCustomerById(int id)
         {
-            var result = db.Projects.FirstOrDefault(x => x.ProjectId == id);
+            var result = db.Users.FirstOrDefault(x => x.UserId == id);
             return result;
         }
 
-        public string SaveOrUpdate(Project project)
+        public string SaveOrUpdate(User user)
         {
             try
             {
                 string message = "";
-                if (project.ProjectId == 1)
+                if (user.UserId == 1)
                 {
-                    db.Projects.Add(project);
+                    db.Users.Add(user);
                     message = "Data save.";
                 }
                 else
                 {
-                    db.Entry(project).State = EntityState.Modified;
+                    db.Entry(user).State = EntityState.Modified;
                     message = "Data Updated.";
                 }
-                
+
                 db.SaveChanges();
                 return message;
             }

@@ -12,6 +12,8 @@ namespace IssueTrackingSystemCL.Entity
         public int UserId { get; set; }
         [Required]
         public string Name { get; set; }
+        public DateTime AddDate { get; set; }
+        
         [Required]
         public string UserName { get; set; }
         [Required]
